@@ -46,7 +46,7 @@ public class CallArgumentsParamTest {
         assertEquals(GAS, callArgumentsParam.getGas().getHexNumber());
         assertEquals(GAS_PRICE, callArgumentsParam.getGasPrice().getHexNumber());
         assertEquals(VALUE, callArgumentsParam.getValue().getHexNumber());
-        assertEquals(DATA, callArgumentsParam.getData().getAsHexString());
+        assertEquals(DATA, callArgumentsParam.getInput().getAsHexString());
         assertEquals(NONCE, callArgumentsParam.getNonce().getHexNumber());
         assertEquals(CHAIN_ID, callArgumentsParam.getChainId().getHexNumber());
     }
